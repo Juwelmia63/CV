@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <section class="container mx-auto">
         <div class="mt-28 bg-blue-950 flex flex-row items-center pt-6 justify-center gap-60">
             <div class=" w-[300px] h-[300px] rounded-full overflow-hidden">
-                <img class=" object-cover relative  h-full w-full" src="profile-pic.png" alt="">
+                <img class=" object-cover relative  h-full w-full" src="New folder/profile-pic.png" alt="">
             </div>
 
 
@@ -30,11 +31,30 @@
         </div>
 
 
-        <div class="bg-white">
+        <div class="bg-white grid grid-cols-3">
             <div>
-                <h3 class="text-black text-3xl">ABOUT ME</h3>
+                <div class="flex flex-col items-center">
+                    <div
+                        class="flex flex-row items-center gap-2 border-b-4 border-black rounded-md w-80 justify-center p-2">
+                        <div> <img class="h-10 w-10" src="New folder/user.png" alt=""></div>
+                        <div class="">
+                            <h3 class="text-black text-3xl font-bold">ABOUT ME</h3>
+                        </div>
+
+
+                    </div>
+
+                    <div>
+                        <p class="pt-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolor
+                            exercitationem modi quod distinctio quam soluta perspiciatis, unde atque dolore odio,
+                            quisquam aliquam voluptas, assumenda suscipit new op quos commodi natus perferendis commodi natus perferendis?</p>
+                    </div>
+                </div>
+
             </div>
-            <div></div>
+            <div class="col-span-2">
+                <!-- next part -->
+            </div>
         </div>
     </section>
 
