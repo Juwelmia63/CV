@@ -1,0 +1,5 @@
+body{
+    background: rgb(230, 213, 213);
+    display: flex;
+    min-height: 100vh;
+}
